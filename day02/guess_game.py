@@ -1,7 +1,7 @@
 import random
 
 random_number = random.randrange(1, 21)
-number_of_guesses = 1
+number_of_guesses = 0
 
 while True:
     guess = int(input("Guess a number between 1 and 20: "))
