@@ -1,31 +1,23 @@
 import sys
 
 
-def characters_counter(filename):
+def characters_counter(text):
     num_chr = 0
-    with open(filename) as fh:
-        for line in fh:
-            line = line.rstrip()
-            for ch in line: 
-                num_chr +=1
+    for line in text:
+        line = line.rstrip()
+        num_chr += len(line)
     return(num_chr)
 
-def lines_counter(filename):
+def lines_counter(text):
     num_lines = 0
-    with open(filename) as fh:
-        for line in fh:
+    for line in text:
          num_lines +=1
     return(num_lines)
 
-def words_counter(filename):
+def words_counter(text):
     num_words = 0
-    with open(filename) as fh:
-        text = fh.read()
-        for line in fh:
-            line = line.rstrip()
-            for ch in line: 
-                if str == ch + " " + ch:
-                    num_words +=1
+    for line in text:
+        num_words += len(line.split())
     return(num_words)
 
 def main():
@@ -33,10 +25,12 @@ def main():
         exit("Usage: {sys.argv[0]} FILENAME")
     
     filename = sys.argv[1]
-    numer_of_characters = characters_counter(filename)
-    print(f"number of characters: {numer_of_characters}")
-    numer_of_lines = lines_counter(filename)
-    print(f"nubmer of lines: {numer_of_lines}")
-    number_of_words = words_counter(filename)
-    print(f"nubmer of words: {number_of_words}")
+    with open(filename) as fh:
+        text = fh.readlines()
+        number_of_characters = characters_counter(text)
+        print(f"number of characters: {number_of_characters}")
+        number_of_lines = lines_counter(text)
+        print(f"nubmer of lines: {number_of_lines}")
+        number_of_words = words_counter(text)
+        print(f"nubmer of words: {number_of_words}")
 main()
