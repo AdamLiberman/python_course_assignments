@@ -1,0 +1,44 @@
+LOCUS       WP_347574312             342 aa            linear   BCT 28-MAY-2024
+DEFINITION  VWA domain-containing protein [Legionella sp.].
+ACCESSION   WP_347574312
+VERSION     WP_347574312.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella sp.
+  ORGANISM  Legionella sp.
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 342)
+  AUTHORS   Bork,P. and Rohde,K.
+  TITLE     More von Willebrand factor type A domains? Sequence similarities
+            with malaria thrombospondin-related anonymous protein,
+            dihydropyridine-sensitive calcium channel and inter-alpha-trypsin
+            inhibitor
+  JOURNAL   Biochem J 279 (Pt 3) (Pt 3), 908-910 (1991)
+   PUBMED   1659389
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF012321.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF00092.32
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..342
+                     /organism="Legionella sp."
+                     /db_xref="taxon:459"
+     Protein         1..342
+                     /product="VWA domain-containing protein"
+                     /calculated_mol_wt=37205
+ORIGIN      
+        1 mftlanpwvl llfplpllfw lilpkaklhl ptalnvpffk amagiasqeq rslsaqssll
+       61 lpaliwlllv falagprwig epkpieregy nimmaldlsg smeipdmmln grpasrlsvv
+      121 knaaeqfvqa ragdkiglil fgsnaylqtp ltydrqtvll rlidatvgla gkttsigdai
+      181 glavkrlerv pqqgrilill tdgannsgvi eplkaaelak degikiytig lgaaadpral
+      241 tsaflmqnas adldedtlka iaaltggryf ratdvetlht iyetisqlek vnqeqatirp
+      301 qkdyypwfvg lalllclywl asktdlrvka ptpaanpeal ks
+//
+

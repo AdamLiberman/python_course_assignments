@@ -1,0 +1,51 @@
+LOCUS       WP_347571814             294 aa            linear   BCT 28-MAY-2024
+DEFINITION  trypsin-like serine protease [Legionella sp.].
+ACCESSION   WP_347571814
+VERSION     WP_347571814.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella sp.
+  ORGANISM  Legionella sp.
+            Bacteria; Pseudomonadota; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (residues 1 to 294)
+  AUTHORS   Rawlings,N.D. and Barrett,A.J.
+  TITLE     Families of serine peptidases
+  JOURNAL   Methods Enzymol 244, 19-61 (1994)
+   PUBMED   7845208
+REFERENCE   2  (residues 1 to 294)
+  AUTHORS   Sprang,S., Standing,T., Fletterick,R.J., Stroud,R.M.,
+            Finer-Moore,J., Xuong,N.H., Hamlin,R., Rutter,W.J. and Craik,C.S.
+  TITLE     The three-dimensional structure of Asn102 mutant of trypsin: role
+            of Asp102 in serine protease catalysis
+  JOURNAL   Science 237 (4817), 905-909 (1987)
+   PUBMED   3112942
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            
+            ##Evidence-For-Name-Assignment-START##
+            Evidence Category  :: HMM
+            Evidence Accession :: NF012318.4
+            Evidence Source    :: EMBL-EBI
+            Source Identifier  :: PF00089.30
+            ##Evidence-For-Name-Assignment-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..294
+                     /organism="Legionella sp."
+                     /db_xref="taxon:459"
+     Protein         1..294
+                     /product="trypsin-like serine protease"
+                     /EC_number="3.4.21.-"
+                     /GO_function="GO:0004252 - serine-type endopeptidase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0006508 - proteolysis [Evidence IEA]"
+                     /calculated_mol_wt=31376
+ORIGIN      
+        1 mtwlarlslv ilslslttmg waviildsty kksgfkkaea lawsaqfssl iflqsnamdg
+       61 sgswignyng hgyiltaghm fpsgakaady tyetldgtdy hgeavflhpl wnanandrtg
+      121 ydfaivrlke evttggtqpa lykgteeqgk vltmigygwr gtgtkgqdts idtgdqpaaa
+      181 qgliesvvha qvptpktgda gnylgtwlpk edgsipnplt nhgitmpisp lvgilgsgds
+      241 ggpawiyikn gwaiaginsd gngnaaygdi swfprisavq dwirqvvpna rfie
+//
+
